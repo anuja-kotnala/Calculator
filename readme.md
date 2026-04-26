@@ -1,0 +1,1 @@
+Js based calculator, focuses on objects and functions creation. 
