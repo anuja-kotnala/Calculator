@@ -1,0 +1,41 @@
+.btn{
+    
+    background-color: goldenrod;
+    height: 60px;
+    width: 100%;
+    border-color: grey;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+
+.btn[data-val="C"], .btn[data-val="del"]{
+    grid-column: span 2;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    max-width: 300px;
+
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    gap:20px;
+    padding: 40px;
+    max-width:300px;
+    margin:0 auto;
+
+}
+
+#display{
+    background-color: black;
+    color:aliceblue;
+    max-width: 300px;
+    margin-bottom:20px;
+    height: 100px;
+}
